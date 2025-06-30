@@ -1,0 +1,5 @@
+[
+  "What is the sentiment of this review: '{text}'?",
+  "Classify the following review as Positive or Negative: {text}",
+  "Sentiment (Positive/Negative): {text}"
+]

@@ -1,0 +1,13 @@
+text,expected,prompt_version,prompt_template,llm_response
+The movie was fantastic and uplifting.,Positive,1,What is the sentiment of this review: '{text}'?,ERROR
+This was the worst thing I’ve ever seen.,Negative,1,What is the sentiment of this review: '{text}'?,ERROR
+Absolutely brilliant performance!,Positive,1,What is the sentiment of this review: '{text}'?,ERROR
+Terrible customer service experience.,Negative,1,What is the sentiment of this review: '{text}'?,ERROR
+The movie was fantastic and uplifting.,Positive,2,Classify the following review as Positive or Negative: {text},ERROR
+This was the worst thing I’ve ever seen.,Negative,2,Classify the following review as Positive or Negative: {text},ERROR
+Absolutely brilliant performance!,Positive,2,Classify the following review as Positive or Negative: {text},ERROR
+Terrible customer service experience.,Negative,2,Classify the following review as Positive or Negative: {text},ERROR
+The movie was fantastic and uplifting.,Positive,3,Sentiment (Positive/Negative): {text},ERROR
+This was the worst thing I’ve ever seen.,Negative,3,Sentiment (Positive/Negative): {text},ERROR
+Absolutely brilliant performance!,Positive,3,Sentiment (Positive/Negative): {text},ERROR
+Terrible customer service experience.,Negative,3,Sentiment (Positive/Negative): {text},ERROR
